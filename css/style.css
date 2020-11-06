@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+}
+
+.menu {
+    overflow: hidden;
+    position: fixed;
+    background-color: #353b48;
+    top: 0;
+    width: 100%;
+    padding: 28px;
+    z-index: 1;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    float: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 16px;
+}
+
+.menu ul li a:hover {
+    color: #f53b57;
+    font-weight: bold;
+    border-bottom: 2px solid #f53b57;
+}
+
+header {
+    background-image: url('/assets/background.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
+
+#title {
+    position: relative;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -32%);
+}
+
+#title h1 {
+    color: #f53b57;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+#title p {
+    font-size: 30px;
+    margin: 0% 8%;
+}
+
+section {
+    text-align: center;
+    padding: 6% 8%;
+}
+
+section h2 {
+    font-size: 48px;
+}
+
+section h3, section p, section ul li {
+    font-size: 18px;
+}
+
+hr {
+    display: block;
+    height: 4px;
+    border-width: 0;
+    max-width: 120px;
+    color: #353b48;
+    background-color: #353b48;
+    margin: 32px auto;
+}
+
+#about {
+    background-color: #fab1a0;
+}
+
+#skill {
+    background-color: white;
+}
+
+.skill-set ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.skill-set ul li {
+    color: #f53b57;
+}
+
+#portfolio {
+    background-color: #fab1a0;
+}
+
+#contact {
+    background-color: white;
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 0px;
+    position: static;
+}
+
+.social ul li {
+    display: inline;
+    margin: 0px 16px;
+}
+
+.social ul li a {
+    text-decoration: none;
+    color: #f53b57;
+}
+
+.social ul li a:hover {
+    font-weight: bold;
+}
+
+.foot {
+    background-color: #353b48;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+  
+.flex-item {
+    background-color: #feebe7;
+    margin: 20px;
+    padding: 40px;
+    flex: 50%;
+    border-radius: 8px;
+}
+
+.flex-item img {
+    width: 100px;
+    height: auto;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
