@@ -18,7 +18,7 @@ body {
     background-color: #353b48;
     top: 0;
     width: 100%;
-    padding: 28px;
+    padding: 24px;
     z-index: 1;
 }
 
@@ -35,7 +35,6 @@ body {
     float: center;
     text-decoration: none;
     color: white;
-    font-size: 20px;
     margin: 16px;
 }
 
@@ -55,19 +54,19 @@ header {
 
 #title {
     position: relative;
-    top: 44%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -32%);
+    transform: translate(-50%, -50%);
 }
 
 #title h1 {
     color: #f53b57;
-    font-size: 80px;
+    font-size: 60px;
     text-transform: uppercase;
 }
 
 #title p {
-    font-size: 30px;
+    font-size: 24px;
     margin: 0% 8%;
 }
 
@@ -77,25 +76,25 @@ section {
 }
 
 section h2 {
-    font-size: 48px;
+    font-size: 40px;
 }
 
 section h3, section p, section ul li {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 hr {
     display: block;
     height: 4px;
     border-width: 0;
-    max-width: 120px;
+    max-width: 100px;
     color: #353b48;
     background-color: #353b48;
     margin: 32px auto;
 }
 
 #about {
-    background-color: #fab1a0;
+    background-color:#fbb6c1;
 }
 
 #skill {
@@ -112,7 +111,7 @@ hr {
 }
 
 #portfolio {
-    background-color: #fab1a0;
+    background-color: #fbb6c1;
 }
 
 #contact {
